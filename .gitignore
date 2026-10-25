@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Virtual environments and packaging
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Local settings
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+credentials/
+secrets/
+credentials.json
+secrets.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx

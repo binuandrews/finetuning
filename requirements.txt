@@ -1,0 +1,15 @@
+torch
+transformers
+accelerate
+peft
+bitsandbytes        # works on CPU but GPU recommended for speed
+datasets
+sentencepiece
+protobuf
+einops
+tqdm
+numpy
+pandas
+jsonlines
+pdfplumber          # for PDF extraction (optional)
+python-docx         # for DOC/DOCX extraction (optional)
